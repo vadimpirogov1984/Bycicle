@@ -1,0 +1,1 @@
+function ibg(){$.each($(".ibg"),function(i,n){0<$(this).find("img").length&&$(this).css("background-image",'url("'+$(this).find("img").attr("src")+'")')})}ibg(),$(".icon-menu").click(function(i){$(".icon-menu").toggleClass("active"),$(".menu__body").toggleClass("active"),$("body").toggleClass("lock")});
